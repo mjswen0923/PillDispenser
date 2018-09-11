@@ -39,3 +39,22 @@ Ah but what does the client see? On the touchscreen (which ended up not working 
 Yet another file, AlexaSkill.py, scraped the main page and creates a speech file using Flask-Ask which gets sent to Amazon and hosted on a custom skill.
 
 One of the biggest problems faced was due to Northeastern's private network. Essentially, this made it impossible to access the doctor page as one would do in a local home setting. In practice, one could just type in the IP address and the port (192.168.X.X:80 or whatever it may be). But security? So this could not be done over the schools wifi. Now is where tunneling comes in handy. The service pagekite allowed us to tunnel behind some firewalls and host the localhost onto a public domain. We used this service for both the Alexa Skill and for the doctor access page. This meant that when the device was plugged in, we could go to http://display.combros.pagekite.me and be brought to the desired page. However, Northeastern blocked this too! The solution was to grab a VPN chrome extension, and that solved the problem.
+
+
+
+UPDATE:
+
+Our final project turned out much better than we had anticipated and we decided to enter it into some online contests, one of which was the China-US Young Makers Competition on Hackster.io. Months later we had forgotten about the contest and thought nothing of it. Until one day in mid July we found out that our Automatic Pill Dispenser was voted in the top 10 projects and we would be going to Beijing, China!
+
+Almost everything we used in our initial prototype was borrowed from Northeastern University's engineering program which meant we would have to buy the parts and rebuild. Fortunately, two of the three team members lived somewhat close so they were able to meet up and build much of the frame for the new version. 
+In Beijing, we had 24 hours to rebuild our project and test everything out. We learned a lot from our original prototype and decided to make improvements.
+
+Here are some of the key features:
+
+Alexa Skill
+Customizable Lights
+App to Control Lights Over Bluetooth
+Website to Add Pill Times
+Water Dispensing
+Implemented Speaker Reminder
+Up to Six Different Types of Pills
