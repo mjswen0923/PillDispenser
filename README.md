@@ -3,7 +3,7 @@
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/V9uTrwy9Qtg/0.jpg)](https://www.youtube.com/watch?v=V9uTrwy9Qtg)
 
 This project was completed as part of a Cornerstone of Engineering project at Northeastern University.
-Participating members were Matthew Swenson, Oscar Chen, and myself.
+Participating members were Christian Kuss, Oscar Chen, and myself.
 
 We were tasked with creating a robotic device that met a need. To this we crafted an automatic pill dispenser.
 The pill dispenser hosts a webpage that the doctor or caretaker can access and input three different pills, how many need to be dispensed, and when they will be dispensed. This data is then displayed on a small screen on the device so the patient can view when their pills are. An added feature is the dispensing of water with the pills to remove all excuses of not taking pills. The compartment containg the pills is also locked to prevent the abuse of pills.
@@ -38,4 +38,4 @@ Ah but what does the client see? On the touchscreen (which ended up not working 
 
 Yet another file, AlexaSkill.py, scraped the main page and creates a speech file using Flask-Ask which gets sent to Amazon and hosted on a custom skill.
 
-One of the biggest problems faced was due to Northeastern's private network. Essentially, this made it impossible to access the doctor page as one would do in a local home setting. In practice, one could just type in the IP address and the port (192.168.X.X:80 or whatever it may be). But security? So this could not be done over the schools wifi. Now is where tunneling comes in handy. The service pagekite allowed us to tunnel behind some firewalls and host the localhost onto a public domain. We used this service for both the Alexa Skill and for the doctor access page. This meant that when the device was plugged in, we could go to http://display.combros.pagekite.me and be brought to the desired page. However, Northeastern blocked this too! (Thanks NU) The solution was to grab a VPN chrome extension and bypass some restrictions. (Shhh)
+One of the biggest problems faced was due to Northeastern's private network. Essentially, this made it impossible to access the doctor page as one would do in a local home setting. In practice, one could just type in the IP address and the port (192.168.X.X:80 or whatever it may be). But security? So this could not be done over the schools wifi. Now is where tunneling comes in handy. The service pagekite allowed us to tunnel behind some firewalls and host the localhost onto a public domain. We used this service for both the Alexa Skill and for the doctor access page. This meant that when the device was plugged in, we could go to http://display.combros.pagekite.me and be brought to the desired page. However, Northeastern blocked this too! The solution was to grab a VPN chrome extension, and that solved the problem.
