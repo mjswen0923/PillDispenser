@@ -51,10 +51,10 @@ In Beijing, we had 24 hours to rebuild our project and test everything out. We l
 
 Here are some of the key features:
 
-Alexa Skill
-Customizable Lights
-App to Control Lights Over Bluetooth
-Website to Add Pill Times
-Water Dispensing
-Implemented Speaker Reminder
-Up to Six Different Types of Pills
+Alexa Skill,
+Customizable Lights,
+App to Control Lights Over Bluetooth,
+Website to Add Pill Times,
+Water Dispensing,
+Implemented Speaker Reminder,
+Up to Six Different Types of Pills,
