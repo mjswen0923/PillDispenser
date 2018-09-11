@@ -1,6 +1,6 @@
 # PillDispenser
 
-[![IMAGE ALT TEXT HERE]]()(https://youtu.be/GO-83smf9rI)
+Product Video: https://youtu.be/GO-83smf9rI
 
 This project was completed as part of a Cornerstone of Engineering project at Northeastern University.
 Participating members were Christian Kuss, Oscar Chen, and myself.
